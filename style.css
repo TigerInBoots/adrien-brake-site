@@ -1,0 +1,116 @@
+body
+{
+    padding: 20px 20px 20px 20px;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    color: rgb(3, 146, 27);
+    font-family: var(--font);
+    background-image: url("Images/pink_rice.webp");
+}
+
+.navH4
+{
+    padding: 0% 50% 0% 50%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+    display: inline;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    place-content: center;
+}
+
+main
+{
+    padding: 0px 0px 0px 0px;
+}
+
+nav
+{
+    text-align: center;
+
+    padding: 0% 50% 0% 50%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    place-content: center;
+}
+
+img
+{
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+}
+
+button
+{
+    background-color: #000000; 
+    border: 3px dotted orange;
+    color: white;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration-style: none;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(4, 9, 148);
+    font-family: var(--font);
+    font-weight: bold;
+    font-style: normal;
+    border: 3px;
+    padding: 0.1em 1em;
+    margin: 0%;
+    text-align: center;
+    place-self: start;
+    display: inherit;
+}
+
+
+
+
+
+/* javascript stuff */
+
+@font-face {
+    font-family: 'sans_comic_sansregular';
+    src: url('webfontkit-20230818-161005/sanscomicsansregular-x6gd-webfont.woff2') format('woff2'),
+         url('webfontkit-20230818-161005/sanscomicsansregular-x6gd-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: bold;
+
+}
+
+
+@font-face {
+    font-family: 'josefin_slabthin';
+    src: url('webfontkit-20230818-170647/josefinslab-variablefont_wght-webfont.woff2') format('woff2'),
+         url('webfontkit-20230818-170647/josefinslab-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root
+{
+    --font: "josefin_slabthin";
+}
+
+.comic
+{
+    --font: "sans_comic_sansregular";
+}
