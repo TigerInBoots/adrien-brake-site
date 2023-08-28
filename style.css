@@ -11,19 +11,16 @@ body
     background-image: url("Images/pink_rice.webp");
 }
 
-.navH4
+navH4
 {
-    padding: 0% 50% 0% 50%;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-
-    display: inline;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    text-decoration: none;
+    color: rgb(4, 9, 148);
+    font-family: var(--font);
     font-weight: bold;
-    place-content: center;
+    font-style: normal;
+    border: 3px;
+    padding: 0.1em 1em;
+    margin: 0%;
 }
 
 main
@@ -73,12 +70,9 @@ a {
     font-weight: bold;
     font-style: normal;
     border: 3px;
-    padding: 0.1em 1em;
     margin: 0%;
-    text-align: center;
-    place-self: start;
-    display: inherit;
 }
+
 
 
 
