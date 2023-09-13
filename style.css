@@ -61,6 +61,7 @@ button
     text-align: center;
     text-decoration-style: none;
     font-size: 13px;
+    cursor: pointer;
 }
 
 .collapsible {
