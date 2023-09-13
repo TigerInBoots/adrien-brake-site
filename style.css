@@ -63,6 +63,25 @@ button
     font-size: 13px;
 }
 
+.collapsible {
+    background-color: rgb(3, 146, 27); 
+    border: 0px;
+    color: white;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration-style: none;
+    font-size: 13px;
+}
+
+.active, .collapsible:hover {
+    background-color: rgb(3, 90, 17);
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: rgb(4, 9, 148);
@@ -71,6 +90,44 @@ a {
     font-style: normal;
     border: 3px;
     margin: 0%;
+}
+
+#nameBox {
+    float: left;
+    width: 20em;
+    margin: 5px;
+}
+
+#emailBox {
+    float: right;
+    width: 20em;
+    margin: 5px;
+}
+
+#messageBox {
+    margin: 5px;
+    height: auto;
+}
+
+messageMess {
+    margin: 0% 45%;
+}
+
+input {
+    padding: 5px;
+}
+
+#email {
+    width: 20em;
+}
+
+#name {
+    width: 20em;
+}
+
+#message {
+    width: 30em;
+    height: 15em;
 }
 
 footer {
